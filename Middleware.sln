@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Middleware.Business", "Middleware.Business\Middleware.Business.csproj", "{6FF55A3C-BD13-42AB-9FDD-D9FB2CB01078}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Middleware.API", "WebAPI\Middleware.API.csproj", "{CC6EF3E0-DFFF-4AEF-AD6E-DEE35D571E26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FF55A3C-BD13-42AB-9FDD-D9FB2CB01078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FF55A3C-BD13-42AB-9FDD-D9FB2CB01078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FF55A3C-BD13-42AB-9FDD-D9FB2CB01078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FF55A3C-BD13-42AB-9FDD-D9FB2CB01078}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC6EF3E0-DFFF-4AEF-AD6E-DEE35D571E26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC6EF3E0-DFFF-4AEF-AD6E-DEE35D571E26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC6EF3E0-DFFF-4AEF-AD6E-DEE35D571E26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC6EF3E0-DFFF-4AEF-AD6E-DEE35D571E26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B077F73-791F-4500-9CD8-2143FA650C64}
+	EndGlobalSection
+EndGlobal

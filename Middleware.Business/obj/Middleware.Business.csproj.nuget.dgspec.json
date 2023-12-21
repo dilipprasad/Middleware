@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "restore": {
+    "/MyFiles/Upwork/Middleware/Middleware.Business/Middleware.Business.csproj": {}
+  },
+  "projects": {
+    "/MyFiles/Upwork/Middleware/Middleware.Business/Middleware.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/MyFiles/Upwork/Middleware/Middleware.Business/Middleware.Business.csproj",
+        "projectName": "Middleware.Business",
+        "projectPath": "/MyFiles/Upwork/Middleware/Middleware.Business/Middleware.Business.csproj",
+        "packagesPath": "/Users/dilipprasad/.nuget/packages/",
+        "outputPath": "/MyFiles/Upwork/Middleware/Middleware.Business/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dilipprasad/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.417/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
